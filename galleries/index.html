@@ -1,17 +1,17 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN" color-mode=light>
+<html lang="en" color-mode=light>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>galleries - big ben ben</title>
+  <title>相册 - big ben ben</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google" content="notranslate" />
   
-  
+  <meta name="description" content="xiao tong and xiao di‘s cyber big benben">
   <meta name="author" content="xiao-di">
   <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -73,7 +73,7 @@
         }
       },
       donate: {
-        enable: ,
+        enable: false,
         alipay: 'https://pic.izhaoo.com/alipay.jpg',
         wechat: 'https://pic.izhaoo.com/wechat.jpg'
       },
@@ -82,7 +82,7 @@
       },
       fab: {
         enable: true,
-        always_show: false
+        always_show: true
       },
       carrier: {
         enable: true
@@ -96,16 +96,16 @@
           api: ''
         },
         motto: {
-          default: '你好呀，小童同学！！',
-          typing: ,
-          api: 'https://v1.hitokoto.cn/?encode=text&c=j',
-          data_contents: ''
+          default: '你好呀，小童同学!!',
+          typing: true,
+          api: '',
+          data_contents: '["data","content"]'
         },
       },
       qrcode: {
         enable: true,
         type: 'url',
-        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+        image: 'https://m1.im5i.com/2022/12/29/UGrxQo.png',
       },
       toc: {
         enable: true
@@ -121,8 +121,8 @@
         page_black_list: ''
       },
       search: {
-        enable: false,
-        path: ''
+        enable: true,
+        path: '/search.xml'
       }
     }
   </script>
@@ -151,8 +151,10 @@
         <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
       
       
+        <i class="iconfont iconsearch j-navbar-search"></i>
+      
     </div>
-    <div class="center">galleries</div>
+    <div class="center">相册</div>
     <div class="right">
       <i class="iconfont iconmenu j-navbar-menu"></i>
     </div>
@@ -172,7 +174,7 @@
     <ul class="menu-content"><li class="menu-item">
         <a href="/ " class="underline "> 首页</a>
       </li><li class="menu-item">
-        <a href="/galleries/ " class="underline active"> 摄影</a>
+        <a href="/galleries/ " class="underline active"> 相册</a>
       </li><li class="menu-item">
         <a href="/archives/ " class="underline "> 归档</a>
       </li><li class="menu-item">
@@ -183,54 +185,18 @@
         <a href="/about/ " class="underline "> 关于</a>
       </li></ul>
     
-      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  XiaoTong - XiaoDi</div>
     
   </div>
 </nav>
   <main id="main">
-  <div class="article-wrap">
-    <div class="row container">
-      <div class="col-xl-3"></div>
-      <div class="col-xl-6"><article class="article">
-  <div class="wrap">
-    <section class="head">
-  <img   class="lazyload" data-original="/images/theme/2022_12_28_1.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  draggable="false">
-  <div class="head-mask">
-    <h1 class="head-title">galleries</h1>
-    <div class="head-info">
-      <span class="post-info-item"><i class="iconfont iconcalendar"></i>十二月 28, 2022</span>
-      
-      <span class="post-info-item"><i class="iconfont iconfont-size"></i>0</span>
-    </div>
-  </div>
-</section>
-    <section class="main">
-      <section class="content">
-        
-        
-      </section>
-      <section class="extra">
-        
-        
-        
-        
-      </section>
-      
-    </section>
-  </div>
-</article></div>
-      <div class="col-xl-3">
-        
-          
-  <aside class="toc-wrap">
-    <h3 class="toc-title">文章目录：</h3>
+  <section class="galleries container">
+    <header class="header">
+  <h1 class="header-title">相册</h1>
+  <p class="header-subtitle">Photography</p>
+</header>
     
-  </aside>
-
-        
-      </div>
-    </div>
-  </div>
+  </section>
 </main>
   
 
@@ -272,7 +238,7 @@
           <i class="iconfont  iconmail"></i>
       </a></div>
   
-    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  XiaoTong - XiaoDi</div>
   
 </footer>
   
@@ -292,6 +258,20 @@
 <script src="/js/color-mode.js"></script>
 
   
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
   
 </body>
 

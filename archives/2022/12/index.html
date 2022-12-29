@@ -1,17 +1,17 @@
 
 
 <!DOCTYPE html>
-<html lang="zh-CN" color-mode=light>
+<html lang="en" color-mode=light>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>归档 - big ben ben: 2022/12</title>
+  <title>Archive - big ben ben: 2022/12</title>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="google" content="notranslate" />
   
-  
+  <meta name="description" content="xiao tong and xiao di‘s cyber big benben">
   <meta name="author" content="xiao-di">
   <link rel="icon" href="/images/icons/favicon-16x16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/images/icons/favicon-32x32.png" type="image/png" sizes="32x32">
@@ -73,7 +73,7 @@
         }
       },
       donate: {
-        enable: ,
+        enable: false,
         alipay: 'https://pic.izhaoo.com/alipay.jpg',
         wechat: 'https://pic.izhaoo.com/wechat.jpg'
       },
@@ -82,7 +82,7 @@
       },
       fab: {
         enable: true,
-        always_show: false
+        always_show: true
       },
       carrier: {
         enable: true
@@ -96,16 +96,16 @@
           api: ''
         },
         motto: {
-          default: '你好呀，小童同学！！',
-          typing: ,
-          api: 'https://v1.hitokoto.cn/?encode=text&c=j',
-          data_contents: ''
+          default: '你好呀，小童同学!!',
+          typing: true,
+          api: '',
+          data_contents: '["data","content"]'
         },
       },
       qrcode: {
         enable: true,
         type: 'url',
-        image: 'https://pic.izhaoo.com/weapp-code.jpg',
+        image: 'https://m1.im5i.com/2022/12/29/UGrxQo.png',
       },
       toc: {
         enable: true
@@ -121,8 +121,8 @@
         page_black_list: ''
       },
       search: {
-        enable: false,
-        path: ''
+        enable: true,
+        path: '/search.xml'
       }
     }
   </script>
@@ -151,6 +151,8 @@
         <i class="iconfont iconmoono" id="color-toggle" color-toggle="light"></i>
       
       
+        <i class="iconfont iconsearch j-navbar-search"></i>
+      
     </div>
     <div class="center">归档</div>
     <div class="right">
@@ -172,7 +174,7 @@
     <ul class="menu-content"><li class="menu-item">
         <a href="/ " class="underline "> 首页</a>
       </li><li class="menu-item">
-        <a href="/galleries/ " class="underline "> 摄影</a>
+        <a href="/galleries/ " class="underline "> 相册</a>
       </li><li class="menu-item">
         <a href="/archives/ " class="underline "> 归档</a>
       </li><li class="menu-item">
@@ -183,7 +185,7 @@
         <a href="/about/ " class="underline "> 关于</a>
       </li></ul>
     
-      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+      <div class="menu-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  XiaoTong - XiaoDi</div>
     
   </div>
 </nav>
@@ -191,14 +193,20 @@
   <section class="archive">
     <div class="archive-container">
       <div class="archive-post">
-        <h3 class="archive-total">归档: 1 篇</h3>
+        <h3 class="archive-total">归档: 2 篇</h3>
         
         
           
             <h3 class="archive-year">2022 年</h3>
           
           <div class="archive-item">
-            <a class="archive-date" href="/2022/12/28/my-first-blog/">十二月 28</a>
+            <a class="archive-date" href="/2022/12/29/2022-12-29/">December 29</a>
+            <a class="archive-title" href="/2022/12/29/2022-12-29/">2022.12.29</a>
+          </div>
+        
+          
+          <div class="archive-item">
+            <a class="archive-date" href="/2022/12/28/my-first-blog/">December 28</a>
             <a class="archive-title" href="/2022/12/28/my-first-blog/">今天能不能喜欢我(2022.12.28)</a>
           </div>
         
@@ -246,7 +254,7 @@
           <i class="iconfont  iconmail"></i>
       </a></div>
   
-    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme - <a target="_blank" href="https://github.com/izhaoo/hexo-theme-zhaoo">zhaoo</a></p></div>
+    <div class="footer-copyright"><p>Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  XiaoTong - XiaoDi</div>
   
 </footer>
   
@@ -266,6 +274,20 @@
 <script src="/js/color-mode.js"></script>
 
   
+  
+    <div class="search">
+  <div class="search-container">
+    <div class="search-close">
+      <i class="iconfont iconbaseline-close-px"></i>
+    </div>
+    <div class="search-input-wrapper">
+      <i class="search-input-icon iconfont iconsearch"></i>
+      <input class="search-input" type="search" id="search-input" placeholder="Search..." autofocus autocomplete="off"
+        autocorrect="off" autocapitalize="off">
+    </div>
+    <div class="search-output" id="search-output"></div>
+  </div>
+</div>
   
 </body>
 

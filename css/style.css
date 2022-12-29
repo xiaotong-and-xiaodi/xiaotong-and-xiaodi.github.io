@@ -1,5 +1,5 @@
 :root {
-  --color-background: #fff;
+  --color-background: #d4f2e7;
   --color-background-secondary: #f6f8fa;
   --color-background-rgb: 255, 255, 255;
   --color-text: #33333d;
@@ -1192,7 +1192,7 @@ body input {
   font-size: 3.5em;
   font-family: 'Quicksand', 'Vollkorn', serif;
   font-weight: 300;
-  color: #ffb6c1;
+  color: #ffc0cb;
   margin: 0;
 }
 .preview .preview-motto-wrapper .preview-cursor {
