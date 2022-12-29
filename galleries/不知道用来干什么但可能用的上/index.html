@@ -189,50 +189,87 @@
     
   </div>
 </nav>
-  <main id="main">
-  <section class="galleries container">
+  
+
+
+<main id="main">
+  <section class="gallery container">
     <header class="header">
-  <h1 class="header-title">相册</h1>
-  <p class="header-subtitle">Photography</p>
+  <h1 class="header-title">不知道用来干什么但可能用的上</h1>
+  <p class="header-subtitle">啊啊啊啊啊啊啊啊</p>
 </header>
-    
-      
-      <div class="wrap">
-      
-        
-        <a href="./Tong and Di" class="item">
-          <img   class="lazyload" data-original="https://m1.im5i.com/2022/12/29/UGpBVK.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="Tong and Di">
-          <div class="title-wrap">
-            <div class="mask">
-              <h3 class="title">Tong and Di</h3>
-            </div>
-          </div>
-        </a>
-      
-        
-        <a href="./不知道用来干什么但可能用的上" class="item">
-          <img   class="lazyload" data-original="https://m1.im5i.com/2022/12/29/UGroXQ.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="不知道用来干什么但可能用的上">
-          <div class="title-wrap">
-            <div class="mask">
-              <h3 class="title">不知道用来干什么但可能用的上</h3>
-            </div>
-          </div>
-        </a>
-      
-        
-        <a href="./不知道用来干什么但可能也用的上+1" class="item">
-          <img   class="lazyload" data-original="https://m1.im5i.com/2022/12/29/UGroXQ.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="不知道用来干什么但可能也用的上+1">
-          <div class="title-wrap">
-            <div class="mask">
-              <h3 class="title">不知道用来干什么但可能也用的上+1</h3>
-            </div>
-          </div>
-        </a>
-      
-      </div>
-    
+    <div id="wrap" class=waterfallWrap default-type="waterfall" default-col="3">
+      <a data-fancybox="images" style=width:33.333333333333336% target="_blank" rel="noopener" href="https://m1.im5i.com/2022/12/29/UG00ma.jpg" class="item"><img   class="lazyload" data-original="https://m1.im5i.com/2022/12/29/UG00ma.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg=="  alt="https://m1.im5i.com/2022/12/29/UG00ma.jpg" /></a>
+    </div>
   </section>
 </main>
+
+<script>
+  var gap = 10;
+  var items = document.getElementsByClassName('item');
+  var wrap = document.getElementById("wrap");
+
+  window.onload = function () {
+    waterFall();
+  }
+
+  window.onresize = function () {
+    setTimeout(() => {
+      waterFall();
+    }, 1000)
+  }
+
+  function waterFall() {
+    if (!(wrap.getAttribute('default-type') === 'waterfall')) return;
+    var wrapWidth = getClientWidth();
+    var columns;
+    if(wrapWidth < 768 && wrapWidth >= 576) {
+      columns = 2;
+    } else if (wrapWidth < 576) {
+      columns = 1;
+    } else {
+      columns = parseInt(wrap.getAttribute('default-col'));
+    }
+    rerenderImage(columns, wrapWidth);
+  }
+
+  function rerenderImage(col, pageWidth) {
+    var arr = [];
+    var maxHeight = 0;
+    const itemWidth = (100 / col) + '%';
+    for (var i = 0;i < items.length; i++){
+      if (i < col) {
+        items[i].style.top = 0;
+        items[i].style.left = (pageWidth / col  + gap) * i + 'px';
+        items[i].style.width = itemWidth;
+        arr.push(items[i].offsetHeight);
+      } else {
+        var minHeight = arr[0];
+        var index = 0;
+        for (var j = 0; j < arr.length; j++) {
+          if (minHeight > arr[j]) {
+            minHeight = arr[j];
+            index = j;
+          } 
+        }
+        items[i].style.top = arr[index] + gap + 'px';
+        items[i].style.left = items[index].offsetLeft + 'px';
+        items[i].style.width = itemWidth;
+        arr[index] = arr[index] + items[i].offsetHeight + gap;
+      }
+    }
+    for (var m = 0; m < arr.length; m++) {
+      if (maxHeight < arr[m]) {
+        maxHeight = arr[m];
+      } 
+    }
+    wrap.style.height = maxHeight + 'px';
+  }
+
+  function getClientWidth() {
+    return wrap.getBoundingClientRect().width;
+  }
+</script>
   
 
 <footer class="footer">
