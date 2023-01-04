@@ -19,4 +19,3 @@ http://example.com/about/index.html
 http://example.com/2022/12/28/my-first-blog/
 http://example.com/
 http://example.com/tags/%E5%B0%8F%E6%9C%AC%E6%9C%AC/
-http://example.com/tags/top-8/
