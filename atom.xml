@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-07T15:04:20.600Z</updated>
+  <updated>2023-01-08T02:09:10.274Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>霍金诞辰日快乐！</title>
+    <link href="http://example.com/2023/01/08/2023-1-8/"/>
+    <id>http://example.com/2023/01/08/2023-1-8/</id>
+    <published>2023-01-08T01:54:22.000Z</published>
+    <updated>2023-01-08T02:09:10.274Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><p>和你一起，打败时间  ——《时间不简史》</p></blockquote><hr><p>Key to Last day：</p><p>我猜你还没写🤔</p><hr><p><img  src="https://s2.loli.net/2023/01/08/i9XpFSw5VonxMut.jpg"  ><span class="image-caption">每天一道</span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>俄罗斯圣诞节快乐！</title>
