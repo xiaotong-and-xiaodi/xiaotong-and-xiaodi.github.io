@@ -2,7 +2,7 @@ var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
         var a = new Array
-        ("小童同学！");
+        ("小童宝宝！");
         var $i = $("<span/>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
