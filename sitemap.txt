@@ -1,4 +1,6 @@
+http://example.com/2023/01/24/2023-1-24/
 http://example.com/2022/12/29/xiao-ben-ben/
+http://example.com/about/index.html
 http://example.com/2023/01/23/2023-1-23/
 http://example.com/2023/01/22/2023-1-22/
 http://example.com/2023/01/20/2023-1-21/
@@ -34,7 +36,6 @@ http://example.com/galleries/%E4%B8%8D%E7%9F%A5%E9%81%93%E7%94%A8%E6%9D%A5%E5%B9
 http://example.com/galleries/Tong%20and%20Di/index.html
 http://example.com/categories/index.html
 http://example.com/tags/index.html
-http://example.com/about/index.html
 http://example.com/2022/12/28/my-first-blog/
 http://example.com/
 http://example.com/tags/%E5%B0%8F%E6%9C%AC%E6%9C%AC/
