@@ -1,6 +1,6 @@
 http://example.com/2023/01/26/2023-1-26/
-http://example.com/2023/01/25/2023-1-25/
 http://example.com/2022/12/29/xiao-ben-ben/
+http://example.com/2023/01/25/2023-1-25/
 http://example.com/2023/01/24/2023-1-24/
 http://example.com/about/index.html
 http://example.com/2023/01/23/2023-1-23/
