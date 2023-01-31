@@ -1,3 +1,4 @@
+http://example.com/2023/01/31/2023-1-31/
 http://example.com/2023/01/30/2023-1-30/
 http://example.com/2023/01/29/2023-1-29/
 http://example.com/about/index.html
