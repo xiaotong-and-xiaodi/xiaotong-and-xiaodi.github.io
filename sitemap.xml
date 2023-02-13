@@ -535,7 +535,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -543,7 +543,7 @@
   
   <url>
     <loc>http://example.com/tags/%E5%B0%8F%E6%9C%AC%E6%9C%AC/</loc>
-    <lastmod>2023-02-12</lastmod>
+    <lastmod>2023-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
