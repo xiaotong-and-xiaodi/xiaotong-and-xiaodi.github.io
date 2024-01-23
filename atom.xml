@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-22T15:50:25.888Z</updated>
+  <updated>2024-01-23T15:32:02.998Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>123日快乐！</title>
+    <link href="http://example.com/2024/01/23/2024-1-23/"/>
+    <id>http://example.com/2024/01/23/2024-1-23/</id>
+    <published>2024-01-23T15:29:27.000Z</published>
+    <updated>2024-01-23T15:32:02.998Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>等和小破童打电话ing<br>蹦来蹦去</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>俄国革命纪念日快乐！</title>
     <link href="http://example.com/2024/01/22/2024-1-22/"/>
     <id>http://example.com/2024/01/22/2024-1-22/</id>
     <published>2024-01-22T15:43:43.000Z</published>
-    <updated>2024-01-22T15:50:25.888Z</updated>
+    <updated>2024-01-23T15:30:43.826Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天好大的风呀，想到小破童说看到小破迪第一眼觉得要被风吹走了</p><p>哈哈哈哈哈我会努力的！不止努力不被风吹走</p>]]></content>
     
     
       
@@ -384,26 +404,6 @@
     <updated>2023-08-27T01:05:49.182Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>倒计时55555555555555<br>耶耶耶耶耶</p><hr><p>历史上的今天</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>全国律师咨询日快乐！</title>
-    <link href="http://example.com/2023/08/26/2023-8-26/"/>
-    <id>http://example.com/2023/08/26/2023-8-26/</id>
-    <published>2023-08-26T01:20:31.000Z</published>
-    <updated>2023-08-26T01:58:09.186Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>6666666666666666666<br>睡醒发现少了一天 好耶</p><hr><p>历史上的今天</p><p><img  src="https://i.ibb.co/jDMDny5/DSC03496.jpg"  ><span class="image-caption">怎么还有6天！ 突突突</span><br><img  src="https://i.ibb.co/483Rxwh/DSC03516.jpg"  ><span class="image-caption">我也突突突</span></p>]]></content>
     
     
       
