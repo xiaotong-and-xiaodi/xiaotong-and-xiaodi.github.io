@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-24T04:56:53.335Z</updated>
+  <updated>2024-01-25T05:28:27.046Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>又一个俄罗斯大学生节快乐！</title>
+    <link href="http://example.com/2024/01/25/2024-1-25/"/>
+    <id>http://example.com/2024/01/25/2024-1-25/</id>
+    <published>2024-01-25T05:18:35.000Z</published>
+    <updated>2024-01-25T05:28:27.046Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><p>今天写的时候突然发现好耳熟的节日，原来去年的bigbenben也有</p><p>耶耶耶耶耶耶耶终于有重复的了 心满意足</p><p>你小子就等着收好东西吧嘿嘿嘿</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>完全不知道是什么日子也要快乐！</title>
@@ -384,26 +404,6 @@
     <updated>2023-08-29T01:01:18.289Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333！</p><hr><p>历史上的今天</p><p><img  src="https://i.ibb.co/4SM2xS8/DSC03607.jpg"  ><span class="image-caption">这个米奇怎么抄小破童的</span></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>我有一个梦想60周年快乐！</title>
-    <link href="http://example.com/2023/08/28/2023-8-28/"/>
-    <id>http://example.com/2023/08/28/2023-8-28/</id>
-    <published>2023-08-28T02:12:04.000Z</published>
-    <updated>2023-08-28T02:17:19.921Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>4444444444！<br>快了快了</p><hr><p>历史上的今天</p><p><img src="https://i.ibb.co/PxyNXGD/DSC03535.jpg"><br><img  src="https://i.ibb.co/LxG07Qh/DSC03559.jpg"  ><span class="image-caption">流星雨！</span></p>]]></content>
     
     
       
