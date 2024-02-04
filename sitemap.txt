@@ -1,3 +1,4 @@
+http://example.com/2024/02/04/2024-2-4/
 http://example.com/2024/02/03/2024-2-3/
 http://example.com/2024/02/02/2024-2-2/
 http://example.com/2024/02/01/2024-2-1/
