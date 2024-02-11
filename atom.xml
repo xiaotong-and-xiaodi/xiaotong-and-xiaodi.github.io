@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-02-10T02:02:01.610Z</updated>
+  <updated>2024-02-11T01:57:20.458Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>211日快乐！</title>
+    <link href="http://example.com/2024/02/11/2024-2-11/"/>
+    <id>http://example.com/2024/02/11/2024-2-11/</id>
+    <published>2024-02-11T01:38:26.000Z</published>
+    <updated>2024-02-11T01:57:20.458Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img  src="https://s2.loli.net/2024/02/11/Y95AfgNdhvBmW1s.jpg"  ><span class="image-caption">每日一道！</span></p><p><img src="https://s2.loli.net/2024/02/11/DORNQnH45BUIz9L.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>春节快乐！</title>
@@ -384,26 +404,6 @@
     <updated>2024-01-23T15:32:02.998Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>等和小破童打电话ing<br>蹦来蹦去</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>俄国革命纪念日快乐！</title>
-    <link href="http://example.com/2024/01/22/2024-1-22/"/>
-    <id>http://example.com/2024/01/22/2024-1-22/</id>
-    <published>2024-01-22T15:43:43.000Z</published>
-    <updated>2024-01-23T15:30:43.826Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天好大的风呀，想到小破童说看到小破迪第一眼觉得要被风吹走了</p><p>哈哈哈哈哈我会努力的！不止努力不被风吹走</p>]]></content>
     
     
       
